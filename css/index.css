@@ -1,0 +1,165 @@
+body {
+  background-color: #ccf5f5;
+}
+
+#gameholder {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  width: 600px;
+  height: 150px;
+  background-image: url("../images/penguin_title.png");
+}
+
+section {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#gameInfo {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 500px;
+  height: auto;
+}
+
+#penguin1:hover {
+  background-image: url("../images/mound_1_hover.png");
+
+  cursor: pointer;
+}
+
+#penguin1 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image: url("../images/mound_1.png");
+}
+
+#penguin2:hover {
+  background-image: url("../images/mound_2_hover.png");
+  cursor: pointer;
+}
+
+#penguin2 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image: url("../images/mound_2.png");
+}
+
+#penguin3:hover {
+  background-image: url("../images/mound_3_hover.png");
+  cursor: pointer;
+}
+
+#penguin3 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image: url("../images/mound_3.png");
+}
+
+#penguin4:hover {
+  background-image: url("../images/mound_4_hover.png");
+  cursor: pointer;
+}
+
+#penguin4 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image: url("../images/mound_4.png");
+}
+
+#penguin5:hover {
+  background-image: url("../images/mound_5_hover.png");
+  cursor: pointer;
+}
+#penguin5 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image: url("../images/mound_5.png");
+}
+
+#penguin6:hover {
+  background-image: url("../images/mound_6_hover.png");
+  cursor: pointer;
+}
+
+#penguin6 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image: url("../images/mound_6.png");
+}
+
+#penguin7:hover {
+  background-image: url("../images/mound_7_hover.png");
+  cursor: pointer;
+}
+
+#penguin7 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image: url("../images/mound_7.png");
+}
+#penguin8:hover {
+  background-image: url("../images/mound_8_hover.png");
+  cursor: pointer;
+}
+
+#penguin8 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image: url("../images/mound_8.png");
+}
+
+#yeti:hover {
+  background-image: url("../images/mound_9_hover.png");
+  cursor: pointer;
+}
+
+#yeti {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image: url("../images/mound_9.png");
+}
+
+#gameInfo,
+#highScore {
+  width: 176px;
+  height: 299px;
+  float: right;
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+
+#highScore h2 {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 2em;
+}
+
+#gameInfo h2 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.scoreboard {
+  flex-grow: 8;
+}
+
+#score,
+#highscore {
+  width: 169px;
+  font-size: 3em;
+  text-align: center;
+}
